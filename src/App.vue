@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import HelloTsx from './components/HelloTsx'
+import HelloWorld from '@/components/HelloWorld.vue';
+import HelloTsx from './components/HelloTsx';
 </script>
 
 <template>
@@ -20,7 +20,6 @@ import HelloTsx from './components/HelloTsx'
 .logo {
   height: 6em;
   padding: 1.5em;
-  will-change: filter;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
